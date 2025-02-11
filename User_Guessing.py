@@ -1,7 +1,8 @@
 import random as rdm
 
+x = int(input('Maximum Number?: '))
+
 def Guess(x):
-    x = int(input('Maximum Number?: '))
     random_number = rdm.randint(1, x)
     guess = 0
     while guess != random_number:
